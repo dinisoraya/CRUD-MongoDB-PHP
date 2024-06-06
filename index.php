@@ -40,7 +40,7 @@
                 echo "<td>" . $mhs->JK . "</td>";
                 echo "<td>";
                 echo "<a href = 'edit.php?id=" . $mhs->_id . "'class='btn btn-primary' style='margin-right: 10px;'>EDIT</a>";
-                echo "<a href = 'hapus.php?id=" . $mhs->_id . "'class='btn btn-danger'>HAPUS</a>";
+                echo "<a href = 'delete.php?id=" . $mhs->_id . "'class='btn btn-danger'>HAPUS</a>";
                 echo "</td>";
                 echo "</tr>";
             }
